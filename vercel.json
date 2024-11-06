@@ -41,7 +41,7 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "false",
-        "APP_URL": "https://marmadux.maledux.uy/",
+        "APP_URL": "https://postre-chaja.vercel.app/",
         "APP_KEY": "base64:cdW7S+j784FQWodBgIuWpHEECRHZf4K/WPVYpSeeLcQ=",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
