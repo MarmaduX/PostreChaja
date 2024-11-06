@@ -1,0 +1,46 @@
+.card-button {
+    text-decoration: none;
+}
+
+.card-button h5 {
+    color: black;
+}
+
+.product-card {
+    background-color: white;
+    border-radius: 7px;
+}
+
+[name="filter-bar"]{
+    color: black;
+    min-width: 250px;
+    margin-right: 100px;
+    position: sticky;
+    top: 20px;
+    z-index: 999;
+}
+
+[name="products-filters"]{
+    display: flex;
+    flex-direction: row;
+}
+
+.form-check-label {
+    cursor: pointer;
+}
+
+.product-card a img {
+    width: 100%;
+    border-radius: 7px 7px 0 0;
+    max-height: 125px;
+    object-fit: cover;
+}
+
+.product-card .buy--btn {
+    width: 100%; 
+    margin: 0px;
+}
+
+.product-card a:hover {
+    opacity: 0.5; 
+}
