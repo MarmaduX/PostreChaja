@@ -5,16 +5,6 @@
             "runtime": "vercel-php@0.6.0"
         }
     },
-    "routes": [
-        {
-            "src": "/(css|js)/(.*)$",
-            "dest": "/api/assets.php?type=$1&file=$2"
-        },
-        {
-            "src": "/(.*)",
-            "dest": "/api/index.php"
-        }
-    ],
     "headers": [
         {
             "source": "/api/(.*)",
