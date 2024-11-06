@@ -21,5 +21,8 @@
         "swiper": "^11.1.1",
         "vercel-php": "^0.6.0",
         "vite-plugin-vercel": "^9.0.3"
+    },
+    "engines": {
+        "node": "18.x"
     }
 }
