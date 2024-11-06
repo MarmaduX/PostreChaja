@@ -2,11 +2,6 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "vercel": [
-            "@php -v",
-            "npm -v",
-            "npm install && npm run dev"
-        ],
         "dev": "vite",
         "build": "vite build"
     },
