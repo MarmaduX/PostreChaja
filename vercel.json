@@ -16,7 +16,7 @@
         },
         {
             "src": "/img/(.*)",
-            "dest": "/static/img/$1"
+            "dest": "/img/$1"
         }
     ],
     "outputDirectory": "public",
