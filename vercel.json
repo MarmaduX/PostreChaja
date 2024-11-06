@@ -17,16 +17,7 @@
     ],
     "headers": [
         {
-            "source": [
-                {
-                    "src": "/(css|js)/(.*)$",
-                    "dest": "/api/assets.php?type=$1&file=$2"
-                },
-                {
-                    "src": "/(.*)",
-                    "dest": "/api/index.php"
-                }
-            ],
+            "source": "/api/(.*)",
             "headers": [
                 {
                     "key": "Access-Control-Allow-Credentials",
